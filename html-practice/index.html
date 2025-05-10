@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-practice</title>
+    <style>*{border:1px solid blueviolet;}</style>
+</head>
+
+<nav class="menu">
+    <ul>
+        <li> <a href="#"> Home </a> </li>
+        <li> <a href="#"> About </a> </li>
+        <li> <a href="#"> Contact </a </li>
+    </ul> 
+</nav>
+
+
+<body>
+    <h1> Inline elements </h1>
+    <p>
+        An "element" is a single part of a webpage.
+        Some elements are large and hold smaller elements like containers.
+        Some elements are small and are "nested" inside larger ones.
+        By default, "inline elements" appear next to one another in a webpage.
+        They take up only as much width as they need in a page and fit
+         together horizontally like words in a sentence or books shelved
+         side-by-side in a row. All inline elements can be placed within
+          the body element.
+    
+    </p>
+
+    <div>
+        LINK: <a href="https://example.org"> A link to example.org</a>.
+    </div>
+    
+    <div>
+        IMAGE: <img src="https://placehold.co/50x50">
+    </div>
+
+    <div>
+        SPAN: Used to group elements: for example, to <span style="color:rgb(255, 0, 0)">style them</span>.
+    </div>
+
+    <div>
+        TEXTO:
+
+        <em> Énfasis </em>
+
+        <i> Italics </i>
+
+        <b> Bold </b>
+
+        <strong> Importante! </strong>
+
+        <mark> Mírame! </mark>
+
+        <s> No importa... </s>
+
+        <cite> Lucas </cite>
+
+        <small> Neira </small>
+
+        <q>Quote</q>
+
+        Arriba del brake
+        <br>
+        Abajo del brake
+    </div>
+
+    <div>
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, quidem? Natus similique aperiam aut tempore earum vero corporis tenetur quos quaerat? In amet ratione repellat atque cupiditate velit qui doloribus?
+            </p>
+        </article>
+        
+        <aside>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate reiciendis quas suscipit aspernatur quos dolorem, laudantium eos, voluptatum deserunt qui eaque vero atque commodi repellendus obcaecati, corrupti dolores facilis earum.
+            </p>
+        </aside>
+
+    </div>
+
+    <h1> Block elements </h1>
+    <p>
+        "Block elements," on the other hand, take up the entire width of a 
+        webpage. They also take up a full line of a webpage; they do not 
+        fit together side-by-side. Instead, they stack like paragraphs in 
+        an essay or toy blocks in a tower.
+    
+    </p>
+
+    <section>
+        <h3>
+            SECTION
+        </h3>
+    </section>
+
+    <div>
+        BLOCKQUOTE
+        <br>
+
+        They said: <blockquote>
+            The blockquote element 
+            indicates an extended quotation.</blockquote>
+    </div>
+
+    <div>
+        DETALLE
+        <br>
+
+        <details>
+            <summary>Título de detalle</summary>
+            <p>Elementos...</p>
+            <p>Más elementos</p>
+        </details>
+    </div>
+
+    <div>
+        LISTA NO NUMERADA
+        <br>
+
+        <ul>
+            <li>I'm an item</li>
+            <li>I'm another item</li>
+        </ul>
+    </div>
+
+    <div>
+        LISTA NUMERADA
+        <br>
+
+        <ol>
+            <li>I'm the first item</li>
+            <li>I'm the second item</li>
+        </ol>
+    </div>
+
+    <div>
+        LÍNEA HORIZONTAL
+        Antes de la línea
+        <hr>
+        Después de la línea
+    </div>
+
+    <div>
+        HEADINGS
+        <br>
+
+        <h1> This is Heading 1 </h1>
+        <h2> This is Heading 2 </h2>
+        <h3> This is Heading 3 </h3>
+        <h4> This is Heading 4 </h4>
+        <h5> This is Heading 5 </h5>
+        <h6> This is Heading 6 </h6>
+    </div>
+
+    <section>
+        <h1> Elementos de tablas </h1>
+
+        <table>
+            <caption>
+                Front-end web developer course 2021
+            </caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Person</th>
+                    <th scope="col">Most interest in</th>
+                    <th scope="col">Age</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">Chris</th>
+                    <td>HTML tables</td>
+                    <td>22</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Dennis</th>
+                    <td>Web accessibility</td>
+                    <td>45</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Sarah</th>
+                    <td>JavaScript frameworks</td>
+                    <td>29</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Karen</th>
+                    <td>Web performance</td>
+                    <td>36</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="2">Average age</th>
+                    <td>33</td>
+                </tr>
+            
+            </tfoot>
+        </table>
+    </section>
+
+    <sections>
+        <h1> FORMS </h1>
+
+        <div>
+            <button class="favorite styled" type="button">Add to favorites</button>
+        </div>
+
+        <div>
+            <label for="ice-cream-choice">Choose a flavor:</label>
+            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+            <datalist id="ice-cream-flavors">
+                <option value="Chocolate"></option>
+                <option value="Coconut"></option>
+                <option value="Mint"></option>
+                <option value="Strawberry"></option>
+                <option value="Vanilla"></option>
+            </datalist>
+        </div>
+
+        <form action="" method="get" class="form-example">
+            <div class="form-example">
+                <label for="name">Enter your name: </label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            
+            <div class="form-example">
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            
+            <div class="form-example">
+                <input type="submit" value="Subscribe!" />
+            </div>
+        </form>
+
+        <div>
+            <label for="pet-select">Choose a pet:</label>
+
+            <select name="pets" id="pet-select">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="story">Tell us your story:</label>
+
+            <textarea id="story" name="story" rows="5" cols="33">
+            It was a dark and stormy night...
+            </textarea>
+        </div>
+
+        <!-- TIPOS DE INPUTS -->
+
+        <div>
+            <input type="checkbox" id="scales" name="scales" checked />
+            <label for="scales">Scales</label>
+        </div>
+
+        <div>
+            <input type="color" id="head" name="head" value="#e66465" />
+            <label for="head">ASD</label>
+        </div>
+
+        <div>
+            <label for="start">Start date:</label>
+            <input
+            type="date"
+            id="start"
+            name="trip-start"
+            value="2018-07-22"
+            min="2018-01-01"
+            max="2018-12-31" />
+        </div>
+        
+        <div>
+            <label for="email">Enter your example.com email:</label>
+            <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+        </div>
+
+        <div>
+            <label for="avatar">Choose a profile picture:</label>
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+        </div>
+        
+        <div>
+            <input
+            type="image"
+            id="image"
+            alt="Login"
+            src="/shared-assets/images/examples/login-button.png" />
+        </div>
+        
+
+    </sections>
+</body>
+
+<footer>
+    Lucas Neira
+</footer>
+
+</html>
