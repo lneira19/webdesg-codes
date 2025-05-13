@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E04</title>
+    <style>
+        table{text-align:center;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1> EJERCICIO 4</h1>
+    </header>
+
+    <main>
+        <h2>Promedio de notas</h2>
+
+        <div>
+            <h3>Notas</h3>
+            
+            <form action="" method="post" id="form_notas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            <th>Nota 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="number" id="nota1" placeholder="Valor" required>
+                            </td>
+                            <td>
+                                <input type="number" id="nota2" placeholder="Valor" required>
+                            </td>
+                            <td>
+                                <input type="number" id="nota3" placeholder="Valor" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Calcular promedio"></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+                <div>
+                    
+                </div>
+                
+            </form>
+        </div>
+
+        <br>
+
+        <div>
+            <h3>Promedio: <span><mark id="mark_promedio">Indefinido</mark></span></h3>
+        </div>
+    </main>
+    
+    <footer>
+
+    </footer>
+</body>
+
+<script src="be-e04.js"></script>
+
+</html>

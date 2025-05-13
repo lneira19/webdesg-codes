@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E02</title>
+</head>
+<body>
+    
+    <header>
+        <h2>HEADER</h2>
+    </header>
+
+    <main>
+        <h2>MAIN</h2>
+
+        <div>
+            <h3>Actualización</h3>
+
+            <form action="" method="post" id="form_ingresodata">
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" placeholder="Ingrese un nombre">
+                </div>
+
+                <br>
+                <div>
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" id="apellido" placeholder="Ingrese un apellido">
+                </div>
+            </form>
+
+            <br>
+            <div>
+                <input type="button" id="addDataBtn" value="Enviar nombre">
+            </div>
+            
+            <br>
+            <div>
+                <input type="button" id="clearListBtn" value="Limpiar lista de nombres">
+            </div>
+        </div>
+
+        <div>
+            <h3>Lista nombres</h3>
+            
+            <ul id="ul_nombres"></ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <h2>FOOTER</h2>
+    </footer>
+
+</body>
+
+<script src="be-e03.js"></script>
+
+</html>

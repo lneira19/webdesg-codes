@@ -101,7 +101,7 @@ a1 = ["a", 10, "b", 20, "c", 30];
 i = a1.findLast((item) => typeof item === "number");
 console.log(i); // 30
 
-// .finIndex
+// .findIndex
 a1 = ["a", 10, "b", 20, "c", 30];
 i = a1.findIndex((item) => typeof item === "number");
 console.log(i); // 1

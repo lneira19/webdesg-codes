@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E01</title>
+    <!-- <style>*{border:1px solid red;}</style> -->
+    <style>
+        table{border: 1px solid black}
+    </style>
+</head>
+
+<body>
+    <h1> Ejercicio 1 </h1>
+
+    <header>
+        <h2> HEADER </h2>
+    </header>
+
+    <section>
+        <h3> LISTA DE COMPRAS </h3>
+        
+        <div>
+            <table id="tcarrito">
+                <!-- <thead>
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Cantidad</th>
+                    </tr>
+                </thead> -->
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h3> ACTUALIZAR CARRITO </h3>
+
+        <form action="" method="post" id="form">
+            <div>
+                <label> Nombre del item: </label>
+                <input type="text" id="nombre">
+            </div>
+
+            <br>
+
+            <div>
+                <label> Cantidad del item: </label>
+                <input type="number" id="cantidad">
+            </div>
+        </form>
+
+        <br>
+        <div>
+            <input type="button" value="Agregar item" id="addItemBtn">
+        </div>
+
+        <br>
+        <div>
+            <input type="button" value="Eliminar item" id="delItemBtn">
+        </div>
+
+    </section>
+
+    <footer>
+        <h2> FOOTER </h2>
+    </footer>
+
+</body>
+
+<script src="backend.js"></script>
+
+</html>
