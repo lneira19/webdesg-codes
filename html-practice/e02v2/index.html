@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E02V2</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <h2> Visualización de nombres </h2>
+        
+        <h3>Tabla de nombres y apellidos</h3>
+        <table id="tab_nombres"></table>
+        
+        <h3>Lista de nombres</h3>
+        <ul id="ul_nombres"></ul>
+        
+        <h2>Agregar nueva persona</h2>
+        <form method="post" id="form_agregar_persona">
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" placeholder="Ingrese un nombre" required>
+            </div>
+            <br>
+            <div>
+                <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" placeholder="Ingrese un apellido" required>
+            </div>
+            <br>
+            <input type="submit" value="Agregar persona">
+        </form>
+
+        <h2>Borrar lista</h2>
+        <input type="button" id="btn_borrar_lista" value="Borrar lista de nombres">
+    </main>
+
+    <footer></footer>
+</body>
+
+<script src="be-e02v2.js"></script>
+
+</html>

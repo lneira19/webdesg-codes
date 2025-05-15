@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E01V2</title>
+    <style>
+        table{border: 1px solid black;text-align: center;}
+    </style>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <div>
+            <h3>Carrito de compras</h3>
+
+            <table id="tab_carrito"></table>
+        </div>
+
+        <div>
+            <h3>Agregar item al carrito</h3>
+            <form id="form_addItem" method="post">
+                <div>
+                    <label for="nombre">Nombre del item:</label>
+                    <input type="text" id="nombre" placeholder="Escriba un nombre" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="cantidad">Cantidad deseada: </label>
+                    <input type="number" id="cantidad" placeholder="Escriba una cantidad" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="submit" value="Agregar al carrito">
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <h3>Eliminar item del carrito</h3>
+            <form id="form_delItem" method="post">
+                <div>
+                    <label for="nombre_delete">Nombre del item:</label>
+                    <input type="text" id="nombre_delete" placeholder="Escriba un nombre" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="submit" value="Eliminar al carrito">
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer></footer>
+</body>
+
+<script src="be-e02v2.js"></script>
+
+</html>
